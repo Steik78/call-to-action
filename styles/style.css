@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+}
+.action{
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f5f4ff;
+    color:#4737ff;
+    padding: 0 10px;
+}
+.action h2{
+    font-weight: 700;
+    font-size: 3.75em;
+    padding: 90px 0 40px 0;
+}
+.action span{
+    font-size: 1.125em;
+    font-weight: 400;
+    display: block;
+    max-width: 630px;
+    margin: 0 auto 40px auto;
+}
+.action button{
+    padding: 15px 28px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 2px solid #4737ff;
+    border-radius: 7px;
+    letter-spacing: 2px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.action button:hover{
+    box-shadow: 0 0 2px 2px rgba(62, 64, 184, 0.6)
+}
+.action button:active{
+    box-shadow: 0 0 1px 1px rgba(62, 64, 184, 0.6)
+}
+.action button:nth-child(3){
+    background-color: #4737ff;
+    color:#fff;
+}
+.action button:nth-child(4){
+    background-color: transparent;
+    color:#4737ff
+}
+.img{
+    margin-top: 60px !important;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.img img{
+    width: 100%;
+}
+@media screen and (max-width: 1020px) {
+    .action h2{
+    
+        font-size: 2.5em;
+        
+    }
+    .action button{
+        padding: 10px 15px;
+        margin: 0 5px;
+        letter-spacing: normal; 
+    }
+}
